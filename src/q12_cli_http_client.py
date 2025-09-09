@@ -10,7 +10,7 @@ def usage():
     print('  python q12_cli_http_client.py POST <url> \'{"k":"v"}\'')
 
 def main(argv):
-    # Friendly behavior for smoke tests: no args -> show usage, exit 0
+    
     if len(argv) < 2:
         usage()
         return 0
